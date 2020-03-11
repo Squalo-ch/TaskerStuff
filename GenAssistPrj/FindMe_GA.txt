@@ -1,0 +1,13 @@
+    Profile: FindMe-GA (59)
+    	Event: Received Text [ Type:Any Sender:* Content:Findme ]
+    Enter: FindmeGA (60)
+    	A1: Variable Set [ Name:%Mediavol To:%VOLM Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    	A2: Media Volume [ Level:15 Display:Off Sound:Off ] 
+    	A3: Variable Set [ Name:%Anunciorep To:0 Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    	A4: Beep [ Frequency:8000 Duration:3000 Amplitude:50 Stream:3 ] 
+    	A5: Say [ Text:Hey! Lala la! Engine:Voice:default:default Stream:3 Pitch:5 Speed:5 Respect Audio Focus:On Network:Off Continue Task Immediately:Off ] 
+    	A6: Variable Set [ Name:%Anunciorep To:%Anunciorep + 1 Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    	A7: Goto [ Type:Action Number Number:4 Label: ] If [ %Anunciorep < 3 ]
+    	A8: Media Volume [ Level:%Mediavol Display:Off Sound:Off ] 
+    	A9: Location Mode [ Mode:Off ] 
+    

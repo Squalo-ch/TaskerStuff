@@ -1,0 +1,36 @@
+<TaskerData sr="" dvi="1" tv="5.8.5">
+	<Profile sr="prof87" ve="2">
+		<cdate>1573296327289</cdate>
+		<clp>true</clp>
+		<edate>1573368483902</edate>
+		<id>87</id>
+		<limit>true</limit>
+		<mid0>88</mid0>
+		<nme>Autostart-GA</nme>
+		<Event sr="con0" ve="2">
+			<code>411</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Task sr="task88">
+		<cdate>1573296355204</cdate>
+		<edate>1583922360233</edate>
+		<id>88</id>
+		<nme>StartupProfiles</nme>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">FindMe-GA</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">LocateSMSGPS-GA</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">LowBatt-GA</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

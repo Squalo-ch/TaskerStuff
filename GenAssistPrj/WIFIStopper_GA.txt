@@ -1,0 +1,15 @@
+    Profile: WIFIStopper-GA (92)
+    	State: Not Wifi Connected [ SSID:* MAC:* IP:* Active:Yes ]
+    	State: Variable Value  [ %WIFI ~ on ]
+    Enter: WIFIStop-GA (93)
+    	A1: Wait [ MS:0 Seconds:45 Minutes:0 Hours:0 Days:0 ] 
+    	A2: Stop [ With Error:Off Task: ] If [ %PACTIVE !~ *WIFI Stopper* ]
+    	A3: WiFi [ Set:Off ] If [ %WIFII !~ %MYWIFINET ]
+    	A4: Stop [ With Error:Off Task: ] If [ %WIFII !~ %MYWIFINET ]
+    	A5: Wait [ MS:0 Seconds:0 Minutes:5 Hours:0 Days:0 ] 
+    	A6: Goto [ Type:Action Number Number:2 Label: ] 
+    
+    Exit: WiFiOff-GA (94)
+    	A1: WiFi [ Set:Off ] If [ %WIFI !~ on ]
+    	A2: Perform Task [ Name:WIFI Checks Init Priority:5 Parameter 1 (%par1): Parameter 2 (%par2): Return Value Variable: Stop:On ] If [ %WIFI ~ on ]
+    

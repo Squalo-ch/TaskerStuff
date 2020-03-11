@@ -1,0 +1,7 @@
+    Profile: Autostart-GA (87)
+    	Event: Device Boot
+    Enter: StartupProfiles (88)
+    	A1: Profile Status [ Name:FindMe-GA Set:On ] 
+    	A2: Profile Status [ Name:LocateSMSGPS-GA Set:On ] 
+    	A3: Profile Status [ Name:LowBatt-GA Set:On ] 
+    

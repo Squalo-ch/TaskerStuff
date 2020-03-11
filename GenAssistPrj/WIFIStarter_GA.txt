@@ -1,0 +1,14 @@
+    Profile: WIFIStarter-GA (89)
+    	Location: 00.00000000000000 / 00.00000000000000 / 30.0m
+    	State: Not Wifi Connected [ SSID:* MAC:* IP:* Active:Yes ]
+    Enter: WIFIAPSearch-GA (90)
+    	A1: Variable Set [ Name:%MYSTART To:%TIMES Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:3 ] If [ %MYSTART !Set ]
+    	A2: Variable Set [ Name:%MYLAPSE To:%TIMES - %MYSTART Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:3 ] 
+    	A3: Variable Set [ Name:%MDurWL To:%MDurWL2 Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] If [ %MYLAPSE > %MLapWL1 ]
+    	A4: Variable Set [ Name:%MDurWL To:%MDurWL1 Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    	A5: Variable Set [ Name:%MDurWL To:0 Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] If [ %MYLAPSE > %MLapWL2 ]
+    	A6: Perform Task [ Name:WIFIStart-GA Priority:5 Parameter 1 (%par1): Parameter 2 (%par2): Return Value Variable: Stop:On ] 
+    
+    Exit: WiFiOn-GA (91)
+    	A1: WiFi [ Set:On ] If [ %WIFII ~ %MYWIFINET ]
+    

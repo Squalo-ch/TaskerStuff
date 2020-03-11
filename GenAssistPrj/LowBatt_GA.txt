@@ -1,0 +1,7 @@
+    Profile: LowBatt-GA (85)
+    	State: Battery Level [ From:7 To:8 ]
+    	State: Not Power [ Source:Any ]
+    Enter: LowBattSMS (86)
+    	A1: Send SMS [ Number:+YOUR-PHONE-NUMBER-HERE Message:NAME mobile has
+        only %BATT % of battery charge left! Store In Messaging App:Off SIM Card: ] 
+    

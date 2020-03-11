@@ -1,0 +1,18 @@
+    Profile: MissedCall-GA (102)
+    	Event: Missed Call [ Caller:C:ANY ]
+    Enter: MissedCall-GA (103)
+    	A1: If [ %lastCall ~ %CNUM ]
+    	A2: Variable Add [ Name:%callCount Value:%call Count + 1 Wrap Around:0 ] 
+    	A3: Else 
+    	A4: Variable Set [ Name:%callCount To:0 Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:3 ] 
+    	A5: End If 
+    	A6: If [ %callCount > 2 ]
+    	A7: Ringer Volume [ Level:7 Display:Off Sound:Off ] 
+    	A8: Vibrate [ Time:200 ] 
+    	A9: End If 
+    	A10: Variable Set [ Name:%lastCall To:%CNUM Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:3 ] 
+    
+    Exit: MissedCallTimerGA (104)
+    	A1: Wait [ MS:0 Seconds:0 Minutes:30 Hours:0 Days:0 ] 
+    	A2: Variable Set [ Name:%callCount To:0 Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:3 ] 
+    

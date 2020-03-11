@@ -1,0 +1,8 @@
+    Profile: LocateSMSGPS-GA (57)
+    	Event: Received Text [ Type:SMS Sender:CG:ICE Content:Gps ]
+    Enter: LocationSMS-GA (58)
+    	A1: Get Location [ Source:GPS Timeout (Seconds):120 Continue Task Immediately:Off Keep Tracking:Off ] 
+    	A2: Variable Set [ Name:%LOCATION To:%LOC Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:0 ] 
+    	A3: Send SMS [ Number:%SMSRF Message:Location %LOCATION Store In Messaging App:Off SIM Card: ] 
+    	A4: Variable Clear [ Name:%LOCATION Pattern Matching:Off Local Variables Only:Off ] 
+    
