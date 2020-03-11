@@ -1,0 +1,5 @@
+    Profile: PwrSrcID1 (76)
+    	State: Power [ Source:USB ]
+    Enter: Usb (77)
+    	A1: Flash [ Text:USB Long:Off ] 
+    

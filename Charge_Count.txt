@@ -1,0 +1,5 @@
+    Profile: Charge_Count (69)
+    	Event: Battery Full
+    Enter: OneChargeAdd (70)
+    	A1: Variable Add [ Name:%CHARGECOUNT Value:1 Wrap Around:0 ] 
+    

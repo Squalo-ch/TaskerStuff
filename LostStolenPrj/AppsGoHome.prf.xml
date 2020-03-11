@@ -1,0 +1,38 @@
+<TaskerData sr="" dvi="1" tv="5.8.5">
+	<Profile sr="prof7" ve="2">
+		<cdate>1515438898023</cdate>
+		<clp>true</clp>
+		<edate>1583921990393</edate>
+		<id>7</id>
+		<limit>true</limit>
+		<mid0>12</mid0>
+		<nme>AppsGoHome</nme>
+		<App sr="con0" ve="2">
+                    <!--NOTE: THE LIST OF APPS CAN BE EASILY SELECTED DIRECTLY IN TASKER-->
+			<cls1>com.android.calendar.AllInOneActivity</cls1>
+			<cls10>com.google.android.googlequicksearchbox.SearchActivity</cls10>
+			<cls11>com.google.android.talk.SigningInActivity</cls11>
+			<cls9>com.google.android.gm.ConversationListActivityGmail</cls9>
+			<flags>2</flags>
+			<label1>Calendar</label1>
+			<label10>Google</label10>
+			<label11>Hangouts</label11>
+			<label9>Gmail</label9>
+			<pkg1>com.google.android.calendar</pkg1>
+			<pkg10>com.google.android.googlequicksearchbox</pkg10>
+			<pkg11>com.google.android.talk</pkg11>
+			<pkg9>com.google.android.gm</pkg9>
+		</App>
+	</Profile>
+	<Task sr="task12">
+		<cdate>1515438939509</cdate>
+		<edate>1583956773601</edate>
+		<id>12</id>
+		<nme>LockLost</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

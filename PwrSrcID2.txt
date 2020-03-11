@@ -1,0 +1,5 @@
+    Profile: PwrSrcID2 (78)
+    	State: Power [ Source:AC ]
+    Enter: AC (79)
+    	A1: Flash [ Text:AC Long:Off ] 
+    

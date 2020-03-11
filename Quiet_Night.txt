@@ -1,0 +1,11 @@
+    Profile: Quiet_Night (21)
+    	State: Power [ Source:Any ]
+    	Time: From 11:15PM Till  6:45AM
+    Enter: No Notifications (22)
+    	A1: Notification Volume [ Level:0 Display:Off Sound:On ] 
+    	A2: Variable Set [ Name:%NOTIFVOL To:0 Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    
+    Exit: No Notif Exit (23)
+    	A1: Notification Volume [ Level:5 Display:Off Sound:On ] 
+    	A2: Variable Set [ Name:%NOTIFVOL To:1 Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    

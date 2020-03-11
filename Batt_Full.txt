@@ -1,0 +1,7 @@
+    Profile: Batt_Full (42)
+    	Time: From  6:45AM Till 11:15PM
+    	State: Power [ Source:Any ]
+    	Event: Battery Full
+    Enter: BattFullNotif (45)
+    	A1: Say [ Text:Battery is fully charged. You can disconnect the charger now Engine:Voice:default:default Stream:5 Pitch:5 Speed:5 Respect Audio Focus:On Network:Off Continue Task Immediately:Off ] 
+    

@@ -1,0 +1,6 @@
+    Profile: Phone_Balance (43)
+    	Event: Phone Idle
+    Enter: PhoneBalanceQuery (44)
+    	A1: Wait [ MS:0 Seconds:1 Minutes:0 Hours:0 Days:0 ] 
+    	A2: Call [ Number:#PROVIDER-HASH-CODE# Auto Dial:On SIM Card: ] 
+    

@@ -1,0 +1,25 @@
+<TaskerData sr="" dvi="1" tv="5.8.5">
+	<Profile sr="prof78" ve="2">
+		<cdate>1515932452649</cdate>
+		<clp>true</clp>
+		<edate>1515932592797</edate>
+		<id>78</id>
+		<mid0>79</mid0>
+		<nme>PwrSrcID2</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
+	<Task sr="task79">
+		<cdate>1515932463010</cdate>
+		<edate>1578300076020</edate>
+		<id>79</id>
+		<nme>AC</nme>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">AC</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
