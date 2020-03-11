@@ -18,6 +18,8 @@ Simple profiles in case of an unfortunate lost or stolen scenario.
 
 ## Profiles
 
+Stand alone profiles and tasks (not grouped under a particular project tab).
+<<<<<<< HEAD
 ### Battery Full Alert - Batt_Full
 
 The phone lets you know when it reaches full charge, unless it happens while sleeping (sleeping time set between 11:15pm and 6:45am.
@@ -37,3 +39,5 @@ Simple flash screen showing if the cable connected is power only 'AC' or power a
 ### Quiet Night
 
 Turns down the notifications volume between 11:15pm and 6:45am next day.
+=======
+>>>>>>> 40feeca8da0513cc80fe3dba6a89d6eddc442a69
