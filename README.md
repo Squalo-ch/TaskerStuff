@@ -6,6 +6,10 @@ XML files to import directly (check before, some files may have bits to fill or 
 
 ## Projects
 
+### Bike Riding - BikePrj
+
+Profiles and tasks useful while riding the motorcycle.
+
 ### General Assistance - GenAssistPrj
 
 Some basic profiles to set/activate on the phones of the aging parents.

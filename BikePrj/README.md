@@ -1,6 +1,6 @@
 # Bike Riding Profiles
 
-Profiles for task automation when riding the motorcycle.
+Profiles for task automation when riding the motorcycle. Phone is on a holder on the handlebars, connected to the helmet BT intercom.
 
 ## Riding On
 
