@@ -1,0 +1,5 @@
+    Profile: Riding_On (33)
+    	State: BT Connected [ Name:Sena 3S v1.1.1 Address:* ]
+    Enter: RidingVarOn (34)
+    	A1: Variable Set [ Name:%RIDING To:on Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:0 ] 
+    

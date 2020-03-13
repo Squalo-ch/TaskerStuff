@@ -1,0 +1,12 @@
+    MotoRide (41)
+    	A1: If [ %RIDING ~ off ]
+    	A2: Bluetooth [ Set:On ] 
+    	A3: WiFi [ Set:Off ] 
+    	A4: Beep [ Frequency:8000 Duration:1000 Amplitude:50 Stream:5 ] 
+    	A5: Flash [ Text:Riding Settings Activated Long:Off ] 
+    	A6: Variable Set [ Name:%RIDING To:on Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:0 ] 
+    	A7: Else 
+    	A8: Flash [ Text:Riding Settings Disabled Long:Off ] 
+    	A9: Bluetooth [ Set:Off ] 
+    	A10: Variable Set [ Name:%RIDING To:off Recurse Variables:Off Do Maths:Off Append:Off Max Rounding Digits:0 ] 
+    

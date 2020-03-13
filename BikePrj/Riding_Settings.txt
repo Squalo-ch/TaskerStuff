@@ -1,0 +1,30 @@
+    Profile: Riding_Settings (35)
+    	State: Variable Value  [ %RIDING ~ on ]
+    Enter: RidingPref (36)
+    	A1: Variable Set [ Name:%VolumenSistema To:%VOLS Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    	A2: Variable Set [ Name:%VolumenMedios To:%VOLM Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    	A3: Variable Set [ Name:%VolumenAlarmas To:%VOLA Recurse Variables:Off Do Maths:On Append:Off Max Rounding Digits:0 ] 
+    	A4: In-Call Volume [ Level:5 Display:Off Sound:On ] 
+    	A5: System Volume [ Level:7 Display:Off Sound:On ] 
+    	A6: Media Volume [ Level:15 Display:Off Sound:Off ] 
+    	A7: Auto Brightness [ Set:Off ] 
+    	A8: Display Brightness [ Level:255 Disable Safeguard:Off Ignore Current Level:On Immediate Effect:Off ] 
+    	A9: Display Timeout [ Secs:0 Mins:0 Hours:2 ] 
+    	A10: Profile Status [ Name:Receiving_Call_Riding Set:On ] 
+    	A11: Profile Status [ Name:Receive_Text_Bike Set:On ] 
+    	A12: Profile Status [ Name:Dodge_Call_Bike Set:On ] 
+    	A13: Profile Status [ Name:ClearMsgBuffer Set:On ] 
+    	A14: Profile Status [ Name:Receive_Telegram_Bike Set:On ] 
+    
+    Exit: RidingPreferOff (37)
+    	A1: Auto Brightness [ Set:On ] 
+    	A2: Display Timeout [ Secs:0 Mins:2 Hours:0 ] 
+    	A3: Profile Status [ Name:Receiving_Call_Riding Set:Off ] 
+    	A4: Profile Status [ Name:Receive_Text_Bike Set:Off ] 
+    	A5: Profile Status [ Name:Dodge_Call_Bike Set:Off ] 
+    	A6: Profile Status [ Name:Receive_Telegram_Bike Set:Off ] 
+    	A9: Profile Status [ Name:ClearMsgBuffer Set:Off ] 
+    	A10: System Volume [ Level:%VolumenSistema Display:Off Sound:Off ] 
+    	A11: Media Volume [ Level:%VolumenMedios Display:Off Sound:Off ] 
+    	A12: Alarm Volume [ Level:%VolumenAlarmas Display:Off Sound:Off ] 
+    

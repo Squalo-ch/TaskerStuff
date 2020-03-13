@@ -1,0 +1,181 @@
+<TaskerData sr="" dvi="1" tv="5.8.5">
+	<Profile sr="prof35" ve="2">
+		<cdate>1515262845017</cdate>
+		<clp>true</clp>
+		<edate>1584116602019</edate>
+		<id>35</id>
+		<mid0>36</mid0>
+		<mid1>37</mid1>
+		<nme>Riding_Settings</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%RIDING</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Task sr="task36">
+		<cdate>1515262862552</cdate>
+		<edate>1584117236163</edate>
+		<id>36</id>
+		<nme>RidingPref</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%VolumenSistema</Str>
+			<Str sr="arg1" ve="3">%VOLS</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%VolumenMedios</Str>
+			<Str sr="arg1" ve="3">%VOLM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Receive_Text_Bike</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Dodge_Call_Bike</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">ClearMsgBuffer</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Receive_Telegram_Bike</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%VolumenAlarmas</Str>
+			<Str sr="arg1" ve="3">%VOLA</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>306</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="15"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>810</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>812</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="2"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Receiving_Call_Riding</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task37">
+		<cdate>1515263301069</cdate>
+		<edate>1584116735229</edate>
+		<id>37</id>
+		<nme>RidingPreferOff</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>812</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%VolumenMedios</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>303</code>
+			<Int sr="arg0">
+				<var>%VolumenAlarmas</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Receiving_Call_Riding</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Receive_Text_Bike</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Dodge_Call_Bike</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Receive_Telegram_Bike</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">ClearMsgBuffer</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>308</code>
+			<Int sr="arg0">
+				<var>%VolumenSistema</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
