@@ -13,7 +13,7 @@ Profiles and tasks useful while riding the motorcycle.
 ### General Assistance - GenAssistPrj
 
 Some basic profiles to set/activate on the phones of the aging parents.
-* To find the phone if misplaced, turn Wifi on authomatically at home, locate in case of emergency, have someone reminding to charge the phone if battery low, and ramp up the volume if caller persistent.
+* To find the phone if misplaced, turn Wifi on automatically at home, locate in case of emergency, have someone reminding to charge the phone if battery low, and ramp up the volume if caller persistent.
 * See README.md file for details.
 
 ### Lost or Stolen - LostStolenPrj
