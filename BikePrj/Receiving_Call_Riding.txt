@@ -1,0 +1,8 @@
+    Profile: Receiving_Call_Riding (39)
+    	Event: Phone Ringing [ Caller:CG:My Contacts ]
+    	State: BT Connected [ Name:Your_BT_device_ID Address:* ]
+    Enter: ReadCallerID (40)
+    	A1: Media Control [ Cmd:Pause Simulate Media Button:On Package/App Name: Use Notification If Available:Off ] If [ %BLUE ~ On ]
+    	A2: Say [ Text:%CNAME is calling, %CNAME ringing, %CNAME Engine:Voice:default:default Stream:3 Pitch:5 Speed:4 Respect Audio Focus:On Network:Off Continue Task Immediately:Off ] If [ %BLUE ~ On ]
+    	A3: Media Control [ Cmd:Toggle Pause Simulate Media Button:On Package/App Name: Use Notification If Available:Off ] If [ %BLUE ~ On ]
+    

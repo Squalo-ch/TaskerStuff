@@ -1,0 +1,8 @@
+    Profile: Dodge_Call_Bike (38)
+    	Event: Missed Call [ Caller:CG:My Contacts ]
+    Enter: AutoRespond(IfRiding) (26)
+    	A1: Get Location [ Source:GPS Timeout (Seconds):100 Continue Task Immediately:Off Keep Tracking:Off ] 
+    	A2: Say [ Text:%CNUM just rang. That's %CNAME Engine:Voice:default:default Stream:0 Pitch:5 Speed:4 Respect Audio Focus:Off Network:Off Continue Task Immediately:On ] If [ %BLUE ~ On ]
+    	A3: Perform Task [ Name:Convert_LOCSPD_KMH Priority:5 Parameter 1 (%par1): Parameter 2 (%par2): Return Value Variable: Stop:Off ] 
+    	A4: Send SMS [ Number:%CNUM Message:(Auto) Answering while riding is dangerous. Currently at %LOCSPDKMH Km/h). Will reply when safe. Store In Messaging App:Off SIM Card: Wait For Result:Off ] If [ %LOCSPDKMH > 5 ]
+    

@@ -19,3 +19,19 @@ The phone settings and list of profiles to turn *on* or *off* according to the %
 * Profile to read incomming SMS.
 * Profile for calls unanswered from selected contacts.
 * Profile to read messages from messaging apps.
+
+## Receive a text message while riding (Receive_Text_Bike)
+
+If the phone gets an incomming text whilst the helmet bluetooth is connected it will pause the music player and read the SMS message. The music player is restarted after 1 minute. Additionally it will calculate the current speed and reply to the sender that I'm currently riding (at the calculated speed) and will reply when safe.
+
+### Convert_LOCSPD_KMH
+
+This task converts the raw speed data into km/h
+
+## Incomming call while riding (Receiving_Call_Riding)
+
+For incomming calls from any of my contacts, when my helmet BT is connected, this profile will pause the media player and say the caller's name. The call can be taken or dodged.
+
+## Missed or dodged call while riding (Dodge_Call_Bike)
+
+On the event of a missed call from any of my contacts, it will say the caller's name and reply back with an SMS stating that I'm riding (with my current speed) and will reply when safe.

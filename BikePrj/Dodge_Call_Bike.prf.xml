@@ -1,0 +1,71 @@
+<TaskerData sr="" dvi="1" tv="5.9.2">
+	<Profile sr="prof38" ve="2">
+		<cdate>1515263727824</cdate>
+		<clp>true</clp>
+		<edate>1584116968613</edate>
+		<id>38</id>
+		<limit>true</limit>
+		<mid0>26</mid0>
+		<nme>Dodge_Call_Bike</nme>
+		<Event sr="con0" ve="2">
+			<code>2003</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">CG:My Contacts</Str>
+		</Event>
+	</Profile>
+	<Task sr="task26">
+		<cdate>1515260298594</cdate>
+		<edate>1584116792435</edate>
+		<id>26</id>
+		<nme>AutoRespond(IfRiding)</nme>
+		<Action sr="act0" ve="7">
+			<code>902</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="100"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%CNUM just rang. That's %CNAME</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="4"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUE</lhs>
+					<op>2</op>
+					<rhs>On</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Convert_LOCSPD_KMH</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>41</code>
+			<Str sr="arg0" ve="3">%CNUM</Str>
+			<Str sr="arg1" ve="3">(Auto) Answering while riding is dangerous. Currently at %LOCSPDKMH Km/h). Will reply when safe.</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCSPDKMH</lhs>
+					<op>7</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+</TaskerData>
